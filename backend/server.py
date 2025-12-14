@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
-from flask_restful import Api, Resource
+from flask_restful import Api
+from backend.api.quotes import Quote
 
 app = Flask(__name__)
 CORS(app)
